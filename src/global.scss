@@ -32,7 +32,7 @@
         backdrop-filter: blur(12px);
     }
 
-    ion-contnet {
+    ion-content {
         --background: transparent;
     }
 }
@@ -51,7 +51,7 @@
 }
 }
 
-.coustom-popover {
+.custom-popover {
     --max-height: 200px;
     --ion-backdrop-opacity: 0.6;
     &::part(backdrop) {

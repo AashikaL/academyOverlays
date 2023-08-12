@@ -21,7 +21,7 @@ export class HomePage {
   async openTransparentModal(){
     const modal = await this.modalCtrl.create({
       component: MyModalPage,
-      cssClass: 'transprent-modal'
+      cssClass: 'transparent-modal'
     });
     await modal.present();
   }
